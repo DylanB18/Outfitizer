@@ -97,7 +97,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+.centered-area {
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
