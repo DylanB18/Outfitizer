@@ -3,7 +3,9 @@
 
 # TEAM
 
-    Dylan Bober -- Project Lead -- dylanbober.com
+    Dylan Bober    --    Project Lead    --    dylanbober.com
+    Nathan Reed    --   Concept Creator  -- 
+    Tatum Anchell  --   Concept Creator  --
 
 # THANKS
 
