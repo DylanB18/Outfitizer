@@ -9,7 +9,7 @@
 
 # THANKS
 
-    Christopher Martin
+    Christopher Martin- for letting us work on this in your class, and being a great coding teacher.
 
 # TECHNOLOGY COLOPHON
 
