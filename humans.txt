@@ -3,9 +3,11 @@
 
 # TEAM
 
-    Dylan Bober    --    Project Lead    --    dylanbober.com
-    Nathan Reed    --   Concept Creator  -- 
-    Tatum Anchell  --   Concept Creator  --
+    Dylan Bober    --  Development Lead    --   dylanbober.com
+    Colby Dernis   --  Assistant Developer -- 
+    Eric Galluzzi  --  Assistant Developer -- 
+    Nathan Reed    --  Concept Creator     -- 
+    Tatum Anchell  --  Concept Creator     --
 
 # THANKS
 
