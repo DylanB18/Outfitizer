@@ -11,8 +11,10 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <!--Pure-->
+  <!--Pure - No Longer being used
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  -->
+
   <!--Essentials and Custom-->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -21,6 +23,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#fafafa">
+
+  <style>
+    .btn {
+        color: white;
+        background-color: rgba(153, 112, 186);
+      }
+  </style>
 </head>
 
 <body>
@@ -32,15 +41,47 @@
   <div class="centered-area">
     <!--Logo-->
     <img src="img/logo.png" alt="Outfitizer Logo"></img>
+
 	  </br>
-	  </br>
-    <!-- 
-        TODO: Add Friends List
-    -->
+    </br>
+
+    <a class="btn btn-primary" href="main-screen.html">
+      Go Back
+    </a>
+
+    </br>
+    <!--Friend List-->
+    <div class="container box-shadow">
+      <h3>Felix Jones</h3>
+      <span><img src="img/grey_sneak.jpg" alt="Grey Sneaker" width=100></img></span>
+      <span><img src="img/spid_shirt.png" alt="T-Shirt with a Spider on it" width=100></img></span>
+      <span><img src="img/jeans.jpg" alt="Jeans" width=100></img></span>
+    </div>
+
+    </br>
+
+    <div class="container box-shadow">
+      <h3>Ethan Kermis</h3>
+      <span><img src="img/running_shoes.jpg" alt="Grey Sneakers" width=100></img></span>
+      <span><img src="img/hoodie.jpg" alt="Grey Sneakers" width=100></img></span>
+      <span><img src="img/shorts.jpg" alt="Grey Sneakers" width=100></img></span>
+    </div>
+    
+    </br>
+    
+    <div class="container box-shadow">
+      <h3>Leah Edwards</h3>
+      <span><img src="img/fe_sandal.jpg" alt="Sandals" width=100></img></span>
+      <span><img src="img/top.jpg" alt="Grey Top" width=100></img></span>
+      <span><img src="img/jean_shorts.jpg" alt="Short Jeans" width=100></img></span>
+      <span><img src="img/purse.png" alt="Short Jeans" width=100></img></span>
+    </div>
+
     </br>
     </br>
-    <a class="pure-button pure-button-primary pure-button-active" href="/main-screen.html">
-      <i class="fas fa-sign-in-alt"></i>Go Back
+
+    <a class="btn btn-primary" href="main-screen.html">
+      Go Back
     </a>
   </div>
 
