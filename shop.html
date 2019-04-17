@@ -9,7 +9,6 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <!--Pure - No Longer being used
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
@@ -37,6 +36,21 @@
       float: right;
     }
   </style>
+
+  <!--SideNav-->
+  <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+  
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    } 
+  </script>
 </head>
 
 <body>
@@ -45,56 +59,73 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div class="centered-area">
-    <!--Logo-->
-    <img src="img/logo.png" alt="Outfitizer Logo"></img>
-	  </br>
-    </br>
 
-    <!--Cart Icon-->
-    <div class="ec-cart-widget align-right"></div>
-    <div>
-      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16954187&data_platform=code&data_date=2019-04-07" charset="utf-8"></script>
-      <script type="text/javascript">Ecwid.init();</script>
-    </div>
-
-    <!--Search-->
-    <div class="align-center" id="my-search-16954187"></div>
-    <div>
-      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16954187&data_platform=code&data_date=2019-04-07" charset="utf-8"></script>
-      <script type="text/javascript"> xSearch("id=my-search-16954187"); </script>
-    </div>
-
-    </br>
-
-    <!--Back Button-->
-    <a class="btn btn-primary" href="main-screen.html">
-      Go Back
-    </a>
-
-    <!--Categories-->
-    <div id="my-categories-16954187"></div>
-    <div>
-      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16954187&data_platform=code&data_date=2019-04-07" charset="utf-8"></script>
-      <script type="text/javascript"> xCategoriesV2("id=my-categories-16954187"); </script>
-    </div>
-
-    <!--Items-->
-    <div id="my-store-16954187"></div>
-    <div>
-      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16954187&data_platform=code&data_date=2019-04-07" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-16954187");</script>
-    </div>
-
-    </br>
-    </br>
-
-    <!--Other Back Button-->
-
-    <a class="btn btn-primary" href="main-screen.html">
-      Go Back
-    </a>
+  <!--Sidenav-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="friends.html">Friends</a>
+    <a href="shop.html">Shop</a>
+    <a href="main-screen.html">Navigation Screen</a>
+    <a href="faqs-feedback.html">FAQs and Suggestion</a>
   </div>
+    
+  <!-- Use any element to open the sidenav -->
+  <span onclick="openNav()"><img width="80" src="img/h_icon.png"></img></span>
+    
+  <!-- Add all page content inside this div-->
+  <div id="main">
 
+    <div class="centered-area">
+      <!--Logo-->
+      <img src="img/logo.png" alt="Outfitizer Logo"></img>
+      </br>
+      </br>
+
+      <!--Cart Icon-->
+      <div class="ec-cart-widget align-right"></div>
+      <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16954187&data_platform=code&data_date=2019-04-07" charset="utf-8"></script>
+        <script type="text/javascript">Ecwid.init();</script>
+      </div>
+
+      <!--Search-->
+      <div class="align-center" id="my-search-16954187"></div>
+      <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16954187&data_platform=code&data_date=2019-04-07" charset="utf-8"></script>
+        <script type="text/javascript"> xSearch("id=my-search-16954187"); </script>
+      </div>
+
+      </br>
+
+      <!--Back Button-->
+      <a class="btn btn-primary" href="main-screen.html">
+        Go Back
+      </a>
+
+      <!--Categories-->
+      <div id="my-categories-16954187"></div>
+      <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16954187&data_platform=code&data_date=2019-04-07" charset="utf-8"></script>
+        <script type="text/javascript"> xCategoriesV2("id=my-categories-16954187"); </script>
+      </div>
+
+      <!--Items-->
+      <div id="my-store-16954187"></div>
+      <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16954187&data_platform=code&data_date=2019-04-07" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-16954187");</script>
+      </div>
+
+      </br>
+      </br>
+
+      <!--Other Back Button-->
+
+      <a class="btn btn-primary" href="main-screen.html">
+        Go Back
+      </a>
+    </div>
+  </div>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>

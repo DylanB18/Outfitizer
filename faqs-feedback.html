@@ -30,6 +30,21 @@
     alert("Thank you for you submission!");
   }
   </script>
+
+  <!--SideNav-->
+  <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+  
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    } 
+  </script>
 </head>
 
 <body>
@@ -38,26 +53,43 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div class="centered-area">
-    <!--Logo-->
-    <img src="img/logo.png" alt="Outfitizer Logo"></img>
-	  </br>
-    </br>
-    <h1>FAQs</h1>
-    <a class="btn btn-primary" href="questions.html">View Frequently Asked Questions</a>
-    </br>
-    <h3>Have a question or suggestion? Submit it here!</h3>
-    <form action="javascript:thankUser()">
-      <input type="text">
-      <input type="submit">
-    </form>
-    </br>
-    </br>
-    <a class="btn btn-primary" href="main-screen.html">
-      <i class="fas fa-sign-in-alt"></i>Go Back
-    </a>
-  </div>
 
+  <!--Sidenav-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="friends.html">Friends</a>
+    <a href="shop.html">Shop</a>
+    <a href="main-screen.html">Navigation Screen</a>
+    <a href="faqs-feedback.html">FAQs and Suggestion</a>
+  </div>
+    
+  <!-- Use any element to open the sidenav -->
+  <span onclick="openNav()"><img width="80" src="img/h_icon.png"></img></span>
+  
+  <!-- Add all page content inside this div-->
+  <div id="main">
+
+    <div class="centered-area">
+      <!--Logo-->
+      <img src="img/logo.png" alt="Outfitizer Logo"></img>
+      </br>
+      </br>
+      <h1>FAQs</h1>
+      <a class="btn btn-primary" href="questions.html">View Frequently Asked Questions</a>
+      </br>
+      <h3>Have a question or suggestion? Submit it here!</h3>
+      <form action="javascript:thankUser()">
+        <input type="text">
+        <input type="submit">
+      </form>
+      </br>
+      </br>
+      <a class="btn btn-primary" href="main-screen.html">
+        <i class="fas fa-sign-in-alt"></i>Go Back
+      </a>
+    </div>
+  </div>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
