@@ -141,6 +141,11 @@ textarea {
     font-size: 50px;
     border-radius: 20px;
 }
+.btn-xl{
+    padding: 100px 100px;
+    font-size: 50px;
+    border-radius: 20px;
+}
 
  /* The side navigation menu */
  .sidenav {
