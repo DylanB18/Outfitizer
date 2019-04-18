@@ -130,6 +130,12 @@ textarea {
 	  border-radius: 25px;
 	  margin:1em;
   }
+  
+  .textbig {
+	  margin:auto;
+	  font-size: 40px;
+	  
+  }
 
 .box-shadow {
     position: relative;
@@ -151,6 +157,10 @@ textarea {
     font-size: 50px;
     border-radius: 20px;
 }
+
+
+	
+
 
  /* The side navigation menu */
  .sidenav {
