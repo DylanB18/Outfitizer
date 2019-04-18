@@ -22,68 +22,99 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#fafafa">
+
+  <!--SideNav-->
+  <script>
+		/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("main").style.marginLeft = "0";
+		} 
+	</script>
 </head>
 
 <body>
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  
-  <div class="centered-area">
-    <!--Logo-->
-    <img src="img/logo.png" alt="Outfitizer Logo"></img>
-	  </br>
+
+  <!--Sidenav-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="friends.html">Friends</a>
+    <a href="shop.html">Shop</a>
+    <a href="main-screen.html">Navigation Screen</a>
+    <a href="faqs-feedback.html">FAQs and Suggestion</a>
   </div>
-  <h1 class="centered-area">FAQS</h1>
-</br>
+    
+    
+  <!-- Add all page content inside this div-->
+  <div id="main">
+	<div class="centered-area">
+		<!-- Use any element to open the sidenav -->
+		<span onclick="openNav()"><img width="80" src="img/h_icon.png"></img></span>
+		<!--Logo-->
+		<img src="img/logo.png" alt="Outfitizer Logo"></img>
 
-	<ol> 
-	     <h2> 
-			1. What is Outfitizer?
-			
-		</h2>
-		Outfitizer is an app where users can plan out their outfits, shop clothing brands, view other people's outfits, and make and recieve comments and suggestions. 
-		
-		<h2> 
 		</br>
-			2. How do I import pictures of my outfits into the calendar?
-			
-		</h2>
-		
-		To input pictures of your outfit, you will use your phone's camera to take a picture of whatever clothing you would like, and then import the picutres from your camera roll into the calendar. Even if you delete the photos from your album, they will still stay in the app! 
-		
-		<h2> 
-		</br>
-			3. Can I make myself private on the app?
-			
-		</h2>
-		 Yes! Outfitizer has an option of a private calendar in the settings.
-	
-		
-		<h2> 
-		</br>
-			4. Is there a premium feature of the app?
-			
-		</h2>
-		 Outfitizer is currently in the process of creating a premium feature of the app. Which will include an option to sell clothes, and many other amazing extra assets. 
-		
-		<h2> 
-		</br>
-			5. Is this app only available for Iphone users?
-			
-		</h2>
-		No! Outfitizer is available for all Iphone, Android, and Google smart phone users.
-		
-		
-		<h2> 
-		</br>
-			6. How does the shopping function work?
-			
-		</h2>
-		Within the shopping feature, users of the app can directly access the online store of clothing brands!
-		
-	</ol>
+	</div>
+	<h1 class="centered-area">FAQS</h1>
+	</br>
 
+		<ol> 
+			<h2> 
+				1. What is Outfitizer?
+				
+			</h2>
+			Outfitizer is an app where users can plan out their outfits, shop clothing brands, view other people's outfits, and make and recieve comments and suggestions. 
+			
+			<h2> 
+			</br>
+				2. How do I import pictures of my outfits into the calendar?
+				
+			</h2>
+			
+			To input pictures of your outfit, you will use your phone's camera to take a picture of whatever clothing you would like, and then import the picutres from your camera roll into the calendar. Even if you delete the photos from your album, they will still stay in the app! 
+			
+			<h2> 
+			</br>
+				3. Can I make myself private on the app?
+				
+			</h2>
+			Yes! Outfitizer has an option of a private calendar in the settings.
+		
+			
+			<h2> 
+			</br>
+				4. Is there a premium feature of the app?
+				
+			</h2>
+			Outfitizer is currently in the process of creating a premium feature of the app. Which will include an option to sell clothes, and many other amazing extra assets. 
+			
+			<h2> 
+			</br>
+				5. Is this app only available for Iphone users?
+				
+			</h2>
+			No! Outfitizer is available for all Iphone, Android, and Google smart phone users.
+			
+			
+			<h2> 
+			</br>
+				6. How does the shopping function work?
+				
+			</h2>
+			Within the shopping feature, users of the app can directly access the online store of clothing brands!
+			
+		</ol>
+	</div>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
