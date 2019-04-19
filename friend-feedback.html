@@ -44,6 +44,27 @@
       document.getElementById("main").style.marginLeft = "0";
     } 
   </script>
+
+  <style>
+    .btn {
+      color: white;
+      background-color: rgba(153, 112, 186);
+    }
+    
+    #title-purple {
+      color: white;
+      background-color: rgba(153, 112, 186);
+      width: 6cm;
+      height: 2.5cm;
+      padding: 0.5cm;
+      border-radius: 20px;
+      margin: 0 auto;
+    }
+
+    .side-by-side {
+      display: inline-block;
+    }
+  </style>
 </head>
 
 <body>
@@ -68,13 +89,32 @@
     
   <!-- Add all page content inside this div-->
   <div id="main">
-
-    <!--Logo-->
-    <img src="img/logo.png" alt="Outfitizer Logo"></img>
-
-    </br></br>
-    
+      <div class="centered-area">
+        <span class="side-by-side" ><img src="img/bell.jpg"></img></span>
+        <span class="side-by-side">
+          <div id="title-purple">
+            <h1>Feedback</h1>
+          </div>
+        </span> 
+        </br></br>
+        <div class="FriendsBox box-shadow">
+          <h3>New Comment From: Stacy</h3>  
+        </div>
+      </br></br>
+        <div class="FriendsBox box-shadow">
+          <h3>Damon Liked Your Outfit for Monday</h3>  
+        </div>
+      </br></br>
+        <div class="FriendsBox box-shadow">
+          <h3>New Comment From Fred</h3>  
+        </div>
+      </br></br>
+        <div class="FriendsBox box-shadow">
+          <h3>Jake Loved Your Outfit For Sunday</h3>  
+        </div>
+    </div>
   </div>
+
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
