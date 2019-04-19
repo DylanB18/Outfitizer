@@ -45,6 +45,23 @@
       document.getElementById("main").style.marginLeft = "0";
     } 
   </script>
+
+  <style>
+    .btn {
+      color: white;
+      background-color: rgba(153, 112, 186);
+    }
+    
+    #title-purple {
+      color: white;
+      background-color: rgba(153, 112, 186);
+      width: 4.5cm;
+      height: 2.3cm;
+      padding: 0.5cm;
+      border-radius: 20px;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 
 <body>
@@ -69,19 +86,17 @@
   
   <!-- Add all page content inside this div-->
   <div id="main">
-
     <div class="centered-area">
-      <!--Logo-->
-      <img src="img/logo.png" alt="Outfitizer Logo"></img>
       </br>
+      <div id="title-purple"><h1>FAQs</h1></div>
       </br>
-      <h1>FAQs</h1>
-      <a class="btn btn-primary" href="questions.html">View Frequently Asked Questions</a>
+      <a class="btn btn-primary" href="questions.html">See Frequently Asked Questions:</a>
       </br>
-      <h3>Have a question or suggestion? Submit it here!</h3>
+      <h3>Have a question or suggestion? </br> Submit it here!</h3>
       <form action="javascript:thankUser()">
-        <input type="text">
-        <input type="submit">
+        <textarea rows="8" cols="25"></textarea>
+        </br>
+        <input class="btn btn-primary" type="submit">
       </form>
       </br>
       </br>
