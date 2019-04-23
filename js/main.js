@@ -14,3 +14,9 @@ function closeNav() {
 function thankUser() {
    alert("Thank you for you submission!");
 };
+
+//Hide a Div
+function toggleDiv(id) {
+  var div = document.getElementById(id);
+  div.style.display = div.style.display == "none" ? "block" : "none";
+}
