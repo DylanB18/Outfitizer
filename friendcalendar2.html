@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Outfitizer Calendar</title>
+  <meta name="description" content="Outfitizer Demo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!--Pure - No Longer being used
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  -->
+  
+  <!--Essentials and Custom-->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!--Bootstrap and Dependencies-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <meta name="theme-color" content="#fafafa">
+
+  <!--Responsive Grids-->
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="css/main.css">
+
+  <style>
+      .btn {
+        color: white;
+        background-color: rgba(153, 112, 186);
+      }
+  </style>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+  <!--Sidenav-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="index.html">Home</a>
+	  <a href="calendar.html">Calendar</a>
+	  <a href="friends.html">Friends</a>
+	  <a href="friend-feedback.html">Feedback</a>
+    <a href="shop.html">Shop</a>
+    <a href="faqs-feedback.html">FAQs and Suggestions</a>
+  </div>
+    
+  <!-- Use any element to open the sidenav -->
+  <span onclick="openNav()"><img width="80" src="img/h_icon.png"></img></span>
+    
+  <!-- Add all page content inside this div-->
+<div id="main">
+ <div class="centered-area">
+    <!--Logo-->
+    <img src="img/logo.png" alt="Outfitizer Logo"></img>
+    </br>
+    </br>
+    <!--Calendar-->
+    <div class="boxhead">
+      <h2 class="textbig">Stacy's </br> Calendar </h2>
+    </div>
+      
+    <div class="container">
+      <div class="row">
+        <div class="col box2 box-shadow">
+        <div class="box3">
+          <h2>• Monday •</h2>
+      </br><span><img width="100" src="img/dress_shoe.jpg"></img></span>
+      <span><img height="110" src="img/spid_shirt.png"></img></span>
+      <span><img height="110" src="img/jeans.jpg"></img></span>
+        </div>
+        </div>
+        <div class="col order-12 box2 box-shadow">
+        <div class="box3">
+          <h2>• Wednesday •</h2>
+      </br><span><img width="100" src="img/fe_sandal.jpg"></img></span>
+      <span><img height="110" src="img/jean_shorts.jpg"></img></span>
+      <span><img height="110" src="img/purse.png"></img></span>
+        </div>
+        </div>
+        <div class="col order-1 box2 box-shadow">
+        <div class="box3">
+          <h2>• Tuesday •</h2>
+      </br><span><img width="100" src="img/fe_sneaker.jpg"></img></span>
+      <span><img height="120" src="img/top.jpg"></img></span>
+      <span><img height="90" src="img/shorts.jpg"></img></span>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="row">
+      <div class="col box2 box-shadow">
+        <div class="box3">
+        <h2>• Thursday •</h2> 
+      </br><span><img width="100" src="img/red_shoe_nike.jpg"></img></span>
+      <span><img height="120" src="img/hoodie.jpg"></img></span>
+      <span><img height="90" src="img/shorts_sup.jpg"></img></span>
+        </div>
+      </div>
+      <div class="col order-12 box2 box-shadow">
+        <div class="box3">
+        <h2>• Saturday •</h2>
+      </br><span><img width="100" src="img/grey_sneak.jpg"></img></span>
+      <span><img height="100" src="img/symbol_shirt.jpg"></img></span>
+      <span><img height="90" src="img/jeans.jpg"></img></span>
+        </div>
+      </div>
+        <div class="col order-1 box2 box-shadow">
+        <div class="box3">
+          <h2 >• Friday •</h2>
+      </br><span><img width="100" src="img/fe_dress_shoe.jpg"></img></span>
+      <span><img height="120" src="img/cocktail_dress.jpg"></img></span>
+      <span><img height="90" src="img/purse.png"></img></span>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col box2">
+        </div>
+        <div class="col order-12 box2 ">
+        </div>
+        <div class="col order-1 box2 box-shadow">
+        <div class="box3">
+          <h2>• Sunday •</h2>
+      </br><span><img width="100" src="img/reebok.jpg"></img></span>
+      <span><img height="100" src="img/rust_blue_jacket.jpg"></img></span>
+      <span><img height="90" src="img/jean_shorts.jpg"></img></span>
+        </div>
+        </div>
+    </div>
+    </div>
+  </div>
+ </div>
+ 
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
