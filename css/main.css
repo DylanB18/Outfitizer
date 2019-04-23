@@ -154,7 +154,8 @@ textarea {
 }
 
 
-	
+ 
+ 
 
 
  /* The side navigation menu */
@@ -207,7 +208,18 @@ textarea {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 	
-  } 
+
+  }
+  .horizontalalign {
+	  display: inline-block;
+  }
+  .colorborder { 
+	color: rgba(153, 112, 186);
+  
+ }
+ 
+
+
 
 
 
