@@ -142,6 +142,7 @@ textarea {
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     background: rgb(220,220,220);
 }
+
 .FriendsBox {
 	display: inline-block;
     width: 500px;
@@ -154,11 +155,8 @@ textarea {
 }
 
 
- 
- 
-
-
  /* The side navigation menu */
+
  .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -225,10 +223,11 @@ textarea {
     left: 0;
  }
 
-
-
-
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  
+}
 
 
 
