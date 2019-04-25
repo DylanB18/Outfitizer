@@ -1,4 +1,7 @@
 # Outfitizer
+
+![Repo Size](https://img.shields.io/github/repo-size/:DylanB18/:Outfitizer.svg)
+
 A web app demo for a fashion concept.
 
 # [Site Live Here](https://dylanb18.github.io/Outfitizer)
