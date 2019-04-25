@@ -225,9 +225,14 @@ textarea {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0 auto;
-  
 }
+
+code {
+  background: grey;
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
 
 
 

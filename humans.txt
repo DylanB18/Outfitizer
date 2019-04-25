@@ -13,6 +13,8 @@
 
     Christopher Martin- for letting us work on this in your class, and being a great coding teacher.
 
+    Stack Overflow
+
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
