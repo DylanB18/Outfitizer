@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Configuring Chrome to allow for running a local website"
+echo ""
+echo "This should be for development/presentation purposes only"
+echo ""
+echo "Analyzing Local Env."
+
+echo ""
+echo "Opening Chrome!"
+
+
+open -a Google\ Chrome --args --disable-web-security --user-data-dir
